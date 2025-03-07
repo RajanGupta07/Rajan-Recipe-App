@@ -23,7 +23,7 @@ export default function Search({ foodDaat, setFoodData }) {
         onChange={(e) => setQuery(e.target.value)}
         type="text"
         // placeholder="Search for a recipe"
-        className=" border-b-3 font-semibold text-green-900  border-gray-400 p-2 rounded-lg w-1/2"
+        className=" border-b-3 font-semibold text-red-700  border-gray-400 p-2 rounded-lg w-1/2"
       />
     </div>
   );
